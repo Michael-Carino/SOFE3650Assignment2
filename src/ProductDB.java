@@ -8,7 +8,7 @@ public class ProductDB {
 
     public Product GetProductInfo(int upcCode){
         try {
-            File productDatabase = new File ("/Assign2/Assignment2/src/ProductDatabase.txt");
+            File productDatabase = new File ("/src/ProductDatabase.txt");
             Scanner myReader = new Scanner(productDatabase);
 
             while (myReader.hasNextLine()){
